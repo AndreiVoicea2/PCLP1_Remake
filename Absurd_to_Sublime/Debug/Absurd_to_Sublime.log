@@ -1,0 +1,14 @@
+﻿  SDL2SoundEffects.cpp
+D:\ProjCom\Absurd_to_Sublime\Absurd_to_Sublime\SDL2SoundEffects.cpp(44,15): warning C4018: '>': signed/unsigned mismatch
+SDL2SoundEffects.obj : error LNK2019: unresolved external symbol _SDL_GetError referenced in function "public: __thiscall SDL2SoundEffects::SDL2SoundEffects(void)" (??0SDL2SoundEffects@@QAE@XZ)
+SDL2SoundEffects.obj : error LNK2019: unresolved external symbol _SDL_RWFromFile referenced in function "public: void __thiscall SDL2SoundEffects::addSoundEffect(char const *)" (?addSoundEffect@SDL2SoundEffects@@QAEXPBD@Z)
+SDL2SoundEffects.obj : error LNK2019: unresolved external symbol _Mix_OpenAudio referenced in function "public: __thiscall SDL2SoundEffects::SDL2SoundEffects(void)" (??0SDL2SoundEffects@@QAE@XZ)
+SDL2SoundEffects.obj : error LNK2019: unresolved external symbol _Mix_LoadWAV_RW referenced in function "public: void __thiscall SDL2SoundEffects::addSoundEffect(char const *)" (?addSoundEffect@SDL2SoundEffects@@QAEXPBD@Z)
+SDL2SoundEffects.obj : error LNK2019: unresolved external symbol _Mix_PlayChannelTimed referenced in function "public: void __thiscall SDL2SoundEffects::playSoundEffect(int)const " (?playSoundEffect@SDL2SoundEffects@@QBEXH@Z)
+SDL2SoundEffects.obj : error LNK2019: unresolved external symbol _SDL_LogError referenced in function "public: __thiscall SDL2SoundEffects::SDL2SoundEffects(void)" (??0SDL2SoundEffects@@QAE@XZ)
+SDL2SoundEffects.obj : error LNK2019: unresolved external symbol _SDL_Init referenced in function "public: __thiscall SDL2SoundEffects::SDL2SoundEffects(void)" (??0SDL2SoundEffects@@QAE@XZ)
+SDL2SoundEffects.obj : error LNK2019: unresolved external symbol _SDL_Quit referenced in function "public: __thiscall SDL2SoundEffects::~SDL2SoundEffects(void)" (??1SDL2SoundEffects@@QAE@XZ)
+C:\Users\Andrei Voicea\OneDrive\Desktop\SDL\SDL2-2.28.1\lib\x64\SDL2.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\Andrei Voicea\OneDrive\Desktop\SDL\SDL2-2.28.1\lib\x64\SDL2main.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\Andrei Voicea\OneDrive\Desktop\SDL\SDL2_mixer-2.0.4\lib\x64\SDL2_mixer.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+D:\ProjCom\Absurd_to_Sublime\Debug\Absurd_to_Sublime.exe : fatal error LNK1120: 8 unresolved externals
