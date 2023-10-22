@@ -58,7 +58,7 @@ void InitializareDate()
     //list<Perk>::iterator it = AllPerks.begin();
     //Witch.AddPerk(*it);
     //std::advance(it,1);
-    se.addSoundEffect("D:/ProjCom/Absurd_to_Sublime/Absurd_to_Sublime/MainMusic.wav");
+    se.addSoundEffect("D:/ProjCom/PCLP1_Remake/Absurd_to_Sublime/MainMusic.wav");
 }
 
 void FullScreen()
