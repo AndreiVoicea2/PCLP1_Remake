@@ -18,8 +18,6 @@
 #include "Plot.h"
 #include "SDL2SoundEffects.h"
 
-ofstream fout("Output.txt");
-
 using namespace std;
 
 
@@ -58,7 +56,11 @@ void InitializareDate()
     //list<Perk>::iterator it = AllPerks.begin();
     //Witch.AddPerk(*it);
     //std::advance(it,1);
-    se.addSoundEffect("D:/ProjCom/PCLP1_Remake/Absurd_to_Sublime/MainMusic.wav");
+   
+    string file_path = __FILE__;
+    string dir_path = file_path.substr(0, file_path.rfind("\\"));
+    dir_path += "/MainMusic.wav";
+    se.addSoundEffect(dir_path.c_str());
 }
 
 void FullScreen()
